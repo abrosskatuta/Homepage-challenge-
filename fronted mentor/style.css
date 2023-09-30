@@ -1,0 +1,232 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+
+
+}
+body{
+    background-color: rgb(12, 1, 22);
+}
+
+#navbar {
+    color: white;
+    height: 10vh;
+    padding: 0px;
+    width: 100%;
+}
+
+.header {
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socialmediadashboard {
+    padding-bottom: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: flex-start;
+    font-size: 10px;
+
+
+
+
+}
+
+.social {
+    font-size: 10px;
+    color: white;
+    align-items: center;
+}
+
+#totalfollowers {
+    font-size: 20px;
+    padding-top: 30px;
+    color: rgb(230, 227, 233);
+}
+
+#darkmode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+    padding-bottom: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.packofcards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+.first-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 200px;
+    padding: 30px;
+    border-top-color: rgb(121, 15, 86);
+    border-top-style: ridge;
+    border-radius: 10px;
+    background-color: rgb(4, 4, 36);
+    flex-wrap: wrap;
+
+}
+
+.first-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    width: 150px;
+    gap: 10px;
+    
+
+
+
+}
+
+#second-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+#second-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    width: 16vw; 
+    padding: 20px;
+    background-color: rgb(4, 4, 36);
+    color: white;
+}
+
+
+
+
+
+.nathan {
+    margin-left: 10px;
+
+}
+
+
+
+
+#numbers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 8px;
+
+
+}
+
+#follower {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 10px;
+    font-size: 7px;
+    letter-spacing: 1rem;
+    color: red;
+
+}
+
+.today {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 10px;
+    letter-spacing: normal;
+
+
+}
+
+.realtime {
+    color: blueviolet;
+    margin-left: 50px;
+
+
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: first baseline;
+    padding: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-size: bold;
+    color: aliceblue;
+
+}
+
+.pageview {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+.likes,.numbers {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: blueviolet;
+
+}
+
+#numbers-icon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4px;
+    padding-top: 35px;
+    letter-spacing: 1rem;
+}
+
+.icon {
+    display: flex;
+    align-items: first baseline;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.percentageup {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+
+
+
+}
+
+.percentagedown {
+    font-size: 10px;
+    color: red;
+
+}
