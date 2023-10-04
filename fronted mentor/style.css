@@ -41,9 +41,9 @@ body{
 }
 
 #totalfollowers {
-    font-size: 20px;
-    padding-top: 30px;
-    color: rgb(230, 227, 233);
+    font-size: 5px;
+    padding-top: 35px;
+    color: white;
 }
 
 #darkmode {
@@ -168,16 +168,16 @@ body{
 
 }
 
-.overview {
+.overviewtoday{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: first baseline;
-    padding: 30px;
-    padding-left: 30px;
-    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 20px;
     font-size: bold;
     color: aliceblue;
 
