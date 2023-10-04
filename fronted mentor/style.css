@@ -12,8 +12,9 @@ body{
 #navbar {
     color: white;
     height: 10vh;
-    padding: 0px;
+    padding: 20px 20px 0px 0px;
     width: 100%;
+    
 }
 
 .header {
@@ -24,26 +25,24 @@ body{
 }
 
 .socialmediadashboard {
-    padding-bottom: 35px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: first baseline;
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    align-content: flex-start;
-    font-size: 10px;
+    font-size: 20px;
+    font-size: bold;
+    color: aliceblue;
 
-
-
-
-}
-
-.social {
-    font-size: 10px;
-    color: white;
-    align-items: center;
 }
 
 #totalfollowers {
-    font-size: 5px;
-    padding-top: 35px;
+    font-size: 10px;
     color: white;
+    align-items: center;
 }
 
 #darkmode {
@@ -75,7 +74,7 @@ body{
     gap: 40px;
     width: 200px;
     padding: 30px;
-    border-top-color: rgb(121, 15, 86);
+    border-top-color: blue;
     border-top-style: ridge;
     border-radius: 10px;
     background-color: rgb(4, 4, 36);
@@ -86,10 +85,11 @@ body{
 .first-card {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 10px;
     width: 150px;
     gap: 10px;
+    
     
 
 
@@ -119,34 +119,32 @@ body{
 
 
 
-.nathan {
+.Nathan {
     margin-left: 10px;
+    color: lightgrey;
 
 }
 
 
 
 
-#numbers {
+.numbers {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    letter-spacing: 1rem;
+    align-items: center;
+    font-size:  40px;
     font-weight: bold;
-    padding-bottom: 2px;
-    padding-top: 8px;
+    color: beige;
 
 
 }
 
-#follower {
+.follower {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    padding-bottom: 10px;
-    font-size: 7px;
-    letter-spacing: 1rem;
-    color: red;
+    align-items: center;
+    font-size: 10px;
+    color: beige;
 
 }
 
@@ -162,7 +160,7 @@ body{
 }
 
 .realtime {
-    color: blueviolet;
+    color: green;
     margin-left: 50px;
 
 
@@ -183,42 +181,29 @@ body{
 
 }
 
-.pageview {
+
+.likes{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    padding: 5px;
+    font-size: 20px;
+    color: lightgrey;
+    
 
 }
-
-.likes,.numbers {
+.numberics {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
-    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
 
 }
 
-#numbers-icon {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 4px;
-    padding-top: 35px;
-    letter-spacing: 1rem;
-}
 
-.icon {
-    display: flex;
-    align-items: first baseline;
-    flex-direction: row;
-    gap: 5px;
-}
 
 .percentageup {
-    font-size: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     color: green;
 
 
@@ -226,7 +211,7 @@ body{
 }
 
 .percentagedown {
-    font-size: 10px;
+    font-size: 20px;
     color: red;
 
 }
