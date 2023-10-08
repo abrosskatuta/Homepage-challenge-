@@ -1,14 +1,16 @@
 *{
     padding: 0px;
     margin: 0px;
+    vertical-align: baseline;
 
 }
 body{
-    height: 100vh;
+    height: 150vh;
     background-color:rgb(7, 7, 43);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container{
     display: grid;
@@ -26,29 +28,56 @@ nav{
     background-color: rgb(61, 61, 194);
     grid-area: nav;
     border-radius: 5%;
+    padding-left: 30px;
+    padding-top: 30px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
     
 
 }
 h2{
     font-size: 20px;
     display: flex;
-    justify-content: center;
+    padding-top: 80px;
+    padding-left: 30px;
+    color: grey;
 }
 h3{
     font-size: 40px;
     display: flex;
-    justify-content: center;
+    padding-left: 30px;
+    color: white;
     
 }
-
-nav >div>main{
+.duration{
     background-color:rgb(7, 7, 43);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 5%;
+    border-style: solid;
+    overflow-clip-margin: content-box;
+    
 
 }
+h4{
+    color: grey;
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+h5{
+    color: whitesmoke;
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+h6{
+    color: grey;
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
  
 #work{
     background-color: rgb(7, 7, 43);
@@ -58,11 +87,10 @@ nav >div>main{
     border-radius: 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     border-top-width: 50px;
-    border-top-color: brown;
-    padding: 10px 10px 10px 10px;
-    
+    border-top-color:salmon;
+    padding: 20px 50px 30px 30px;
     
     
 }
@@ -76,7 +104,8 @@ nav >div>main{
     border-top-color: lightblue;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px 50px 30px 30px;
 
 }
 #study{
@@ -86,10 +115,11 @@ nav >div>main{
     border-radius: 5%;
     border: 1px solid;    
     border-top-width: 50px;
-    border-top-color: darkmagenta;
+    border-top-color: rgb(235, 11, 78);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px 80px 30px ;
 }
 #exercise{
     background-color: rgb(7, 7, 43);
@@ -98,10 +128,11 @@ nav >div>main{
     border-radius: 5%;
     border: 1px solid;    
     border-top-width: 50px;
-    border-top-color: lightgreen;
+    border-top-color: rgb(41, 182, 41);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px 50px 30px 30px;
 }
 #social{
     background-color: rgb(7, 7, 43);
@@ -110,10 +141,11 @@ nav >div>main{
     border-radius: 5%;
     border: 1px solid;    
     border-top-width: 50px;
-    border-top-color: blueviolet;
+    border-top-color: rgb(116, 10, 126);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px 50px 30px 30px;
 }
 #selfcare{
     background-color: rgb(7, 7, 43);
@@ -122,16 +154,19 @@ nav >div>main{
     border-radius: 5%;
     border: 1px solid;    
     border-top-width: 50px;
-    border-top-color: yellow;
+    border-top-color: rgb(250, 250, 10);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px 50px 30px 30px;
 }
 h1{
     font-size: 50px;
+    padding-top: 50px;
 
 }
 p{
     font-size: 10px;
     color: grey;
+    padding-top: 10px;
 }
