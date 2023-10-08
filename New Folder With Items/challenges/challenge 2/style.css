@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    height: 60vh;
+    width: 90%;
+    grid-template-areas: 
+    "nav work play study"
+    "nav exercise social selfcare";
+
+}
+nav{
+    background-color: blue;
+    color: grey;
+    grid-area: nav;
+
+}
+#work{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: work;
+}
+#play{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: play;
+}
+#study{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: study;
+}
+#exercise{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: exercise;
+}
+#social{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: social;
+}
+#selfcare{
+    background-color: rgb(7, 7, 43);
+    color: whitesmoke;
+    grid-area: selfcare;
+}
