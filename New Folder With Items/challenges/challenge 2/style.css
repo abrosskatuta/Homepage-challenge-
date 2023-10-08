@@ -5,6 +5,7 @@
 }
 body{
     height: 100vh;
+    background-color:rgb(7, 7, 43);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,45 +13,125 @@ body{
 .container{
     display: grid;
     height: 60vh;
-    width: 90%;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "nav work play study"
     "nav exercise social selfcare";
+    column-gap: 20px;
+    row-gap: 10px;
 
 }
 nav{
-    background-color: blue;
-    color: grey;
+    background-color: rgb(61, 61, 194);
     grid-area: nav;
+    border-radius: 5%;
+    
 
 }
+h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav >div>main{
+    background-color:rgb(7, 7, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+ 
 #work{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: work;
+    border: 0.5px solid;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-width: 50px;
+    border-top-color: brown;
+    padding: 10px 10px 10px 10px;
+    
+    
+    
 }
 #play{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: play;
+    border-radius: 5%;
+    border: 1px solid;    
+    border-top-width: 50px;
+    border-top-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 #study{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: study;
+    border-radius: 5%;
+    border: 1px solid;    
+    border-top-width: 50px;
+    border-top-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #exercise{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: exercise;
+    border-radius: 5%;
+    border: 1px solid;    
+    border-top-width: 50px;
+    border-top-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #social{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: social;
+    border-radius: 5%;
+    border: 1px solid;    
+    border-top-width: 50px;
+    border-top-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #selfcare{
     background-color: rgb(7, 7, 43);
     color: whitesmoke;
     grid-area: selfcare;
+    border-radius: 5%;
+    border: 1px solid;    
+    border-top-width: 50px;
+    border-top-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+
+}
+p{
+    font-size: 10px;
+    color: grey;
 }
