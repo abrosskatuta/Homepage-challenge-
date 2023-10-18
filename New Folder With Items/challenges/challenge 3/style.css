@@ -1,30 +1,42 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    background-color: hsl(0, 0, 94%);;
 }
-body{
-    height: 150vh;
-    background-color: aqua;
-
+.body{
+    min-height: 100vh;
+    background-color: orange;
+    min-width: 100%;
     background-image: url(./images/#hero-cover.3\ \(1\).png);
 
     
 }
 .header{
-    width: 100%;
+    min-width: 100%;
     height: 60vh;
     background-image: url(./images/#hero-cover.3\ \(1\).png); 
-    background-color: yellowgreen;
+
 
     
-
-    
+}
+.packofcard{
+    background-image: url("/images/#hero-cover.3\ \(1\).png") top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80vh;
 
 }
+    
+
+
+
 .top{
     display: flex;
     justify-content: flex-start;
-    background-color: aqua;
+    background-color: whitesmoke;
+    border: 1 solid;
 
     
     
@@ -80,6 +92,10 @@ a{
     text-decoration: none;
 }
 .first{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-block: 10px;
     padding: 8px 15px;
     background-color: rgb(72, 72, 238);
     border-radius: 30px;
@@ -104,7 +120,7 @@ a{
     /* column-gap: -20px;
     row-gap: 40px; */
     padding-left: 300px;
-    background-color: brown;
+    background-color: hsl(0, 0, 94%);
     align-content: center;
 
 
@@ -115,7 +131,7 @@ a{
     row-gap: 10px;
     flex-direction: column;
     align-content: center;
-    background-color: white;
+    background-color: hsl(0, 0, 100%);
     width: 230px;
     padding-top: -200px;
     
@@ -163,58 +179,34 @@ h7{
     font-size: 40px;
     font-weight: bolder;
     padding-top: 60px;
+    padding-bottom: 10px;
 
+}
+.person{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
 }
 h8{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     font-size: 15px;
+    padding-bottom: 40px;
+
+}
+h9{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 10px;
+
     
 
 }
-.section2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 3fr ;
-    grid-template-areas: 
-    "user1" "user2" "user3";
-    height: 100vh;
-    width: 100%;
-    column-gap: 20px;
 
 
-    background-color: orange;
-}
-.user1{
-    grid-area: user1;
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    width: 20%;
-    border-radius: 5%;
-}
-.user2{
-    grid-area: user2;
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    width: 20%;
-    border-radius: 5%;
-
-}
-.user3{
-    grid-area: user3;
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    width: 20%;
-    border-radius: 5%;
-}
 .star{
     display: flex;
     flex-direction: row;
@@ -229,7 +221,39 @@ h8{
     color: blue;
 }
 .container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-areas: 
+        'column1 column2 column3';
+    column-gap: 20px;
+    height: 30vh;
+    
+    
+}
+.column1{
+    grid-area: column1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: yellowgreen;
+    
+
+}
+.column2{
+    grid-area: column2;
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    /* padding: 20px 20px 0px 0px; */
+  
 }
 
+.column3{
+    grid-area: column3;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0, 100%);
+    /* padding: 20px 20px 0px 0px; */
+    
+}
