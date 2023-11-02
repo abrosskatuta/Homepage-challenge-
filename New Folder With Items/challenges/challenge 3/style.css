@@ -1,99 +1,177 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-    background-color: hsl(0, 0, 94%);;
+
+        
 }
-.body{
-    min-height: 100vh;
-    background-color: orange;
-    min-width: 100%;
- 
-
-}
-#header-image{
-    background-image: url(./images/#hero-cover.3\ \(1\).png);
-
-}
-
-.header{
-    min-width: 100%;
-    height: 60vh;
-     
-
-
-    
-}
-.packofcard{
-    background-image: url("/images/#hero-cover.3\ \(1\).png") top center;
-    background-size: cover;
-    position: relative;
+.main{
     width: 100%;
-    height: 80vh;
-
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
-    
-
-
-
-.top{
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 75px;
     display: flex;
     justify-content: flex-start;
-    background-color: whitesmoke;
-    border: 1 solid;
 
-    
-    
-   
 }
-h1{
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
-    font-size: 20px;
+.logo{
     color: whitesmoke;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
 }
-h2{
-    color: blueviolet;
+ul{
+    float: left;
     display: flex;
     justify-content: center;
-    padding-left: 50px;
-    font-size: 20px;
-    color: wheat;
-    
-    
-   
-}
-p{
-    display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-left:650px;
-    color: white;
-}
-.login{
-    background-color: blue;
-    color: white;
-    width: 80px;
 
 }
-h3{
-    display: flex;
-    margin-top: 100px;
-    text-align: center;
-    justify-content: center;
-    color: white;
-
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 14px;
 }
-h4{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-
-}
-a{
+ul li a{
     text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-top: 10px;
+    column-gap: 30px;
+    margin-right: 10px;
+}
+.btn a{
+    color: whitesmoke;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+}
+.log{
+    background-color: rgb(5, 187, 248);
+    width: 500px;
+    border: 2px solid  rgb(5, 187, 248);
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: arial;
+    color: whitesmoke;
+    font-size: 14px;
+    
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 125px;
+    
+}
+.content .par{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.get-learn{
+    padding-top: 25px;
+}
+.content .get{
+    width: 160px;
+    height: 40px;
+    background: rgb(14, 14, 233);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .get a{
+    
+    text-decoration: none;
+    transition: .3 ease;
+}
+.get:hover{
+    background: white;
+
+    
+
+}
+.content .learn{
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .learn a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .packofcard{
+    background-color: rgb(219, 213, 213);
+    height: 20vh;
+    width: 100%;  
+   
+
 }
 .first{
     display: flex;
@@ -118,11 +196,11 @@ a{
     display: grid;
     grid-template-columns: 0.6fr 0.6fr 0.6fr 1.2fr;
     grid-template-areas: firstcard secondcard third;
-    /* flex-direction: row; */
+    flex-direction: row; 
     height: -30vh;
     width: 100%;
-    /* column-gap: -20px;
-    row-gap: 40px; */
+    column-gap: -20px;
+    row-gap: 40px; 
     padding-left: 300px;
     background-color: hsl(0, 0, 94%);
     align-content: center;
@@ -228,7 +306,7 @@ h9{
     display: grid;
     justify-content: center;
     grid-template-columns: 200px 200px 200px;
-    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-rows: repeat(2,1fr); 
     grid-template-areas: 
         'column1 column2 column3';
     column-gap: 20px;
@@ -249,7 +327,7 @@ h9{
     display: flex;
     flex-direction: column;
     background-color: yellowgreen;
-    /* padding: 20px 20px 0px 0px; */
+     padding: 20px 20px 0px 0px; 
   
 }
 
@@ -258,6 +336,6 @@ h9{
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0, 100%);
-    /* padding: 20px 20px 0px 0px; */
+    padding: 20px 20px 0px 0px;
     
 }
