@@ -1,58 +1,68 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 
-        
+
+
 }
-.main{
+
+.main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/hero.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./images/hero.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
-.navbar{
+
+.navbar {
     width: 1200px;
     height: 75px;
     margin: auto;
 }
-.icon{
+
+.icon {
     width: 200px;
     height: 75px;
     display: flex;
     justify-content: flex-start;
 
 }
-.logo{
+
+.logo {
     color: whitesmoke;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
     padding-top: 10px;
 }
-ul{
+
+ul {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-left: 62px;
     font-size: 14px;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: whitesmoke;
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: #ff7200;
 }
-.btn{
+
+.btn {
     width: 200px;
     height: 40px;
     display: flex;
@@ -64,26 +74,29 @@ ul li a:hover{
     column-gap: 30px;
     margin-right: 10px;
 }
-.btn a{
+
+.btn a {
     color: whitesmoke;
     padding-top: 20px;
     text-decoration: none;
     font-family: arial;
     font-size: 14px;
 }
-.log{
+
+.log {
     background-color: rgb(5, 187, 248);
     width: 500px;
-    border: 2px solid  rgb(5, 187, 248);
+    border: 2px solid rgb(5, 187, 248);
     height: 50px;
     margin-top: 30px;
     border-radius: 5px;
     font-family: arial;
     color: whitesmoke;
     font-size: 14px;
-    
+
 }
-.content{
+
+.content {
     width: 1200px;
     height: auto;
     margin: auto;
@@ -93,26 +106,30 @@ ul li a:hover{
     align-items: center;
     flex-direction: column;
     padding-top: 125px;
-    
+
 }
-.content .par{
+
+.content .par {
     padding-left: 20px;
     padding-top: 25px;
     font-family: arial;
     letter-spacing: 1.2px;
     line-height: 30px;
 }
-.content h2{
+
+.content h2 {
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
 }
-.get-learn{
+
+.get-learn {
     padding-top: 25px;
 }
-.content .get{
+
+.content .get {
     width: 160px;
     height: 40px;
     background: rgb(14, 14, 233);
@@ -125,18 +142,21 @@ ul li a:hover{
     cursor: pointer;
     transition: .4s ease;
 }
-.content .get a{
-    
+
+.content .get a {
+
     text-decoration: none;
     transition: .3 ease;
 }
-.get:hover{
+
+.get:hover {
     background: white;
 
-    
+
 
 }
-.content .learn{
+
+.content .learn {
     width: 160px;
     height: 40px;
     background: transparent;
@@ -149,7 +169,8 @@ ul li a:hover{
     cursor: pointer;
     transition: .4s ease;
 }
-.content .learn a{
+
+.content .learn a {
     text-decoration: none;
 }
 
@@ -166,97 +187,181 @@ ul li a:hover{
 
 
 
- .packofcard{
-    background-color: rgb(219, 213, 213);
+.packofcard {
+    background-color: rgb(253, 248, 248);
     height: 20vh;
-    width: 100%;  
-   
+    width: 100%;
 
 }
-.first{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-block: 10px;
-    padding: 8px 15px;
-    background-color: rgb(72, 72, 238);
-    border-radius: 30px;
-    color: white;
-}
-.second{
-    padding: 8px 15px;
-    border-radius: 30px;
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
 
-}
-.section1{
+.section1 {
     display: grid;
     grid-template-columns: 0.6fr 0.6fr 0.6fr 1.2fr;
     grid-template-areas: firstcard secondcard third;
-    flex-direction: row; 
-    height: -30vh;
+    flex-direction: row;
+    height: 20vh;
     width: 100%;
     column-gap: -20px;
-    row-gap: 40px; 
+    row-gap: 40px;
     padding-left: 300px;
-    background-color: hsl(0, 0, 94%);
     align-content: center;
 
 
+
 }
-.firstcard{
+
+.firstcard {
     grid-template-areas: firstcard;
     display: flex;
     row-gap: 10px;
     flex-direction: column;
     align-content: center;
-    background-color: hsl(0, 0, 100%);
+    background-color: white;
     width: 230px;
-    padding-top: -200px;
-    
+    margin-top: -100px;
+
+
+
 
 }
-h5{
+
+h5 {
     color: black;
     font-size: 20px;
     padding-left: 30px;
 
 
 }
-h6{
+
+h6 {
     color: grey;
     font-size: 15px;
     padding-left: 30px;
 }
 
-.secondcard{
+.secondcard {
     grid-template-areas: secondcard;
     display: flex;
     flex-direction: column;
     background-color: white;
     width: 230px;
-    
+    margin-top: -100px;
+
 }
-.thirdcard{
+
+.thirdcard {
     grid-template-areas: thirdcard;
     display: flex;
     flex-direction: column;
     background-color: rgb(52, 52, 236);
     width: 230px;
+    margin-top: -100px;
 }
-h7{
+
+h7 {
     font-size: 20px;
     color: white;
     padding-left: 30px;
 }
-.person{
+
+.person {
     padding-left: 10px;
+
 }
-.industry{
-    display:flex;
+
+.cards {
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 1.2fr;
+    grid-template-areas: card1 card2 card3;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    column-gap: -20px;
+    row-gap: 40px;
+    padding-top: 100px;
+    padding-left: 300px;
+    align-content: center;
+
+}
+
+.card1{
+    grid-template-areas: card1;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 230px;
+    
+
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+h4 {
+    color: grey;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+.card2{
+    grid-template-areas: card2;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 230px;
+}
+.card3{
+    grid-template-areas: card2;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section3 {
+    background-color: rgb(253, 248, 248);
+    height: 300vh;
+    width: 100%;
+
+
+
+}
+
+.industry {
+    display: flex;
     justify-content: center;
     font-size: 40px;
     font-weight: bolder;
@@ -264,78 +369,284 @@ h7{
     padding-bottom: 10px;
 
 }
-.person{
+
+.person {
     display: flex;
     padding-top: 20px;
     justify-content: center;
 }
-h8{
-    display:flex;
+
+h8 {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
     padding-bottom: 40px;
 
 }
-h9{
-    display:flex;
+
+h9 {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 15px;
     padding-top: 10px;
 
-    
+
 
 }
 
 
-.star{
+.star {
     display: flex;
     flex-direction: row;
 
 
-} 
-.user{
+}
+
+.user {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     color: blue;
 }
-.container{
+
+.container {
     display: grid;
     justify-content: center;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: repeat(2,1fr); 
-    grid-template-areas: 
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
         'column1 column2 column3';
     column-gap: 20px;
     height: 30vh;
-    
-    
+
+
 }
-.column1{
+
+.column1 {
     grid-area: column1;
     display: flex;
     flex-direction: column;
     background-color: yellowgreen;
-    
+
 
 }
-.column2{
+
+.column2 {
     grid-area: column2;
     display: flex;
     flex-direction: column;
     background-color: yellowgreen;
-     padding: 20px 20px 0px 0px; 
-  
+    padding: 20px 20px 0px 0px;
+
 }
 
-.column3{
+.column3 {
     grid-area: column3;
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0, 100%);
     padding: 20px 20px 0px 0px;
+
+}
+.graphics{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 140px;
+}
+.sub-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: 40px;
+    background: -o-linear-gradient(rgb(34, 6, 34)50%,rgb(245, 22, 245)50%);
+}
+.subscribe{
+    height: 50px;
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+
+
+} 
+.pricing{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bolder;
+        padding-top: 60px;
+        padding-bottom: 10px;
+}
+.joinedcards{
+    background-color: rgb(253, 248, 248);
+    height: 20vh;
+    width: 100%;
+    padding-top: 200px;
+
+}
+.section4{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    grid-template-areas: one two three;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    /* column-gap: -20px; */
+    row-gap: 40px;
+    padding-left: 520px;
+    align-content: center;
+}
+.one{
+    grid-template-areas: one;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 250px;
+    height: 50vh;
+    border: 1px solid blue;
+    border-radius: 10px;
     
+
+}
+.two{
+    grid-template-areas: two;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(14, 14, 53);
+    width: 250px;
+    height: 50vh;
+    border: 1px solid blue;
+    border-radius: 10px;
+   
+
+}
+.three{
+    grid-template-areas: three;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 250px;
+    height: 50vh;
+    border: 1px solid blue;
+    border-radius: 10px;
+  
+
+}
+.free{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.standard{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+
+
+}
+.premium{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+
+
+}
+h{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+p2{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-top: 10px;
+    
+
+}
+h11{
+    color: black;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+p1{
+    color: black;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.freemode{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: rgb(3, 3, 255);
+    color: whitesmoke;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+}
+.section5{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(3, 3, 32);
+}
+.map{
+    display: flex;
+    justify-content: center;
+
+}
+.section6{
+    width: 100%;
+    height: 80vh;
+}
+.regform{
+    width: 350px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+.Appointment{
+    width: 800px;
+    margin: auto;
+    background-color: aqua;
+}
+form{
+    padding: 10px;
+}
+.name{
+    width: 100%;
+    height: 100px ;
+}
+    display: flex;
+    flex-direction: row;
 }
