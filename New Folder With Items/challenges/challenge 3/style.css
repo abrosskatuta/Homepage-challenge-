@@ -133,7 +133,7 @@ ul li a:hover {
 .content .get {
     width: 160px;
     height: 40px;
-    background: rgb(14, 14, 233);
+    background: rgb(88, 189, 223);
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -473,7 +473,6 @@ h9 {
     justify-content: center;
     padding-top: 50px;
     height: 40px;
-    background: color-mix(text-decoration(34, 6, 34)50%,rgb(245, 22, 245)70%);
 }
 .subscribe{
     height: 50px;
@@ -483,12 +482,13 @@ h9 {
     color: white;
     padding-left: 10px;
     padding-top: 10px;
+    background-image:linear-gradient(to right,rgb(0, 38, 255),rgb(235, 33, 144));
 }
 .mail{
     display: flex;
     justify-content: center;
     padding: 15px 5px 10px 400px;
-    border: 1 solid;
+    border: 1 solid white;
     border-radius: 5px;
     
 
@@ -496,10 +496,17 @@ h9 {
 } 
 .sub-1{
     color: white;
+    border: 1 solid white;
+}
+.subscription{
+    border: 1 solid white;
+    
+
 }
 .subscription .sub-1{
     background-color: rgb(55, 136, 230);
-    border-radius: 2px;
+    border-radius: 1px;
+    border: 1 solid white;
 }
 .pricing{
         display: flex;
@@ -537,7 +544,7 @@ h9 {
     background-color: white;
     width: 270px;
     height: 55vh;
-    border: 1px solid blue;
+    border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
     
 
@@ -551,7 +558,7 @@ h9 {
     background-color: rgb(27, 27, 61);
     width: 270px;
     height: 61vh ;
-    border: 1px solid blue;
+    border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
     margin-top: -50px;
    
@@ -566,7 +573,7 @@ h9 {
     background-color: white;
     width: 270px;
     height: 55vh;
-    border: 1px solid blue;
+    border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
   
 
@@ -630,7 +637,7 @@ p1{
 .freemode{
     display: flex;
     justify-content: center;
-    background-color: rgb(3, 3, 255);
+    background-color: rgb(88, 189, 223);
     color: whitesmoke;
     width: 180px;
     height: 40px;
@@ -644,16 +651,16 @@ p9{
     font-size: 20px;
     padding-left: 30px;
     padding-top: 10px;
-}
+/* }
 .freemode .btn{
     display: flex;
     justify-content: center;
     text-decoration: none;
     padding: 10px 25px 10px 20px;
-    color: whitesmoke;
+    color: whitesmoke; */
 }
 .dollar{
-    color: blue;
+    color: rgb(88, 189, 223);
     
 }
 h12{
@@ -702,6 +709,7 @@ h13{
     display: flex;
     justify-content: center;
     margin-top: -150px;
+    margin-left: 1000px;
 
 }
 .sectionlast{
@@ -711,11 +719,17 @@ h13{
 }
 .section6{
     width: 100%;
-    height: 80vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     margin-top: -150px;
   
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 form{
     padding: 50px 50px;
@@ -758,8 +772,7 @@ p4 .name{
 }
 .consultancy{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: space-between;
     margin-top: 300px;
     margin-left: -300px;
     
@@ -790,20 +803,72 @@ p{
 h2{
     color: whitesmoke;
 }
-.foot{
-        width: 100%;
-        height: 80vh;
-        background-color: #ff7200;  
-        display: flex;
-        
+.footer-container{
+    background-color: #fdfdff;
+    padding-bottom: 4rem;
+
 }
-p7{
+.footer{
+    width: 80%;
+    height: 30vh;
+    background-color: #fdfdff;
+    color: rgb(7, 7, 7);
     display: flex;
-    align-items: flex-start;
-    padding-left: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-decoration: solid;
+    
 }
-p8{
+.containerpack{
     display: flex;
-    align-items: flex-start;
-    padding-left: 20px;
+    flex-direction: row;
+    margin: 4rem;
+
+
 }
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+h14{
+    display: flex;
+}
+.footer-heading h14{
+    margin-bottom: 2rem;
+    
+
+}
+.footer-heading a{
+    color: rgb(78, 69, 69);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+.copyrighttext{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8ff;
+    height: 5vh;
+
+
+}
+#divone{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#divtwo{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#divthree{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+@media screen and(max-width: 1150px)
+
+
+
+
