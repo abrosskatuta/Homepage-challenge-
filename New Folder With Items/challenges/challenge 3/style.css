@@ -86,14 +86,16 @@ ul li a:hover {
 
 .log {
     background-color: rgb(5, 187, 248);
-    width: 760px;
+    width: 50%;
     border: 1px solid rgb(5, 187, 248);
+    display: flex;
     height: 60px;
     margin-top: 30px;
     border-radius: 5px;
     font-family: arial;
     color: whitesmoke;
     font-size: 14px;
+    padding: 10px 15px;
 
 }
 
@@ -152,6 +154,8 @@ ul li a:hover {
 
 .get:hover {
     background: white;
+    color: black;
+
 
 
 
@@ -197,14 +201,13 @@ ul li a:hover {
 
 .section1 {
     display: grid;
-    grid-template-columns: 0.6fr 0.6fr 0.6fr 1.2fr;
-    grid-template-areas: firstcard secondcard third;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-areas: firstcard secondcard thirdcard;
     flex-direction: row;
     height: 20vh;
     width: 100%;
-    column-gap: -20px;
-    row-gap: 40px;
-    padding-left: 300px;
+    column-gap: 20px;
     align-content: center;
 
 
@@ -257,6 +260,7 @@ h6 {
     background-color: rgb(47, 95, 253);
     width: 230px;
     margin-top: -100px;
+
 }
 
 h7 {
@@ -270,29 +274,28 @@ h7 {
 
 }
 
-.cards {
+.section2 {
     background-color: white;
     height: 50vh;
     width: 100%;
 
 }
 
-.section2 {
+.cards {
     display: grid;
-    grid-template-columns: 0.6fr 0.6fr 0.6fr 1.2fr;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
     grid-template-areas: card1 card2 card3;
+    column-gap: 20px;
     flex-direction: row;
     height: 20vh;
     width: 100%;
-    column-gap: -20px;
-    row-gap: 40px;
-    padding-top: 100px;
-    padding-left: 300px;
     align-content: center;
+    
 
 }
 
-.card1{
+.card1 {
     grid-template-areas: card1;
     display: flex;
     row-gap: 10px;
@@ -300,7 +303,7 @@ h7 {
     align-content: center;
     background-color: white;
     width: 230px;
-    
+
 
 }
 
@@ -317,7 +320,8 @@ h4 {
     padding-left: 30px;
 
 }
-.card2{
+
+.card2 {
     grid-template-areas: card2;
     display: flex;
     row-gap: 10px;
@@ -326,7 +330,8 @@ h4 {
     background-color: white;
     width: 230px;
 }
-.card3{
+
+.card3 {
     grid-template-areas: card2;
     display: flex;
     row-gap: 10px;
@@ -389,10 +394,11 @@ h8 {
 
 h9 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     font-size: 15px;
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 0px;
 
 
 
@@ -402,6 +408,7 @@ h9 {
 .star {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 
 
 }
@@ -412,18 +419,19 @@ h9 {
     justify-content: space-around;
     align-items: center;
     color: light black;
+    height: 30vh;
 }
 
 .container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 250px 250px 250px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
         'column1 column2 column3';
     column-gap: 20px;
     height: 30vh;
-    
+
 
 
 }
@@ -459,22 +467,25 @@ h9 {
     padding: 20px 20px 20px 10px;
     border-radius: 10px;
     border: 1px solid silver;
-    
+
 
 }
-.graphics{
+
+.graphics {
     display: flex;
     justify-content: center;
     column-gap: 30px;
     padding-top: 140px;
 }
-.sub-btn{
+
+.sub-btn {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     height: 40px;
 }
-.subscribe{
+
+.subscribe {
     height: 50px;
     width: 700px;
     display: flex;
@@ -482,48 +493,55 @@ h9 {
     color: white;
     padding-left: 10px;
     padding-top: 10px;
-    background-image:linear-gradient(to right,rgb(0, 38, 255),rgb(235, 33, 144));
+    background-image: linear-gradient(to right, rgb(37, 45, 92), rgb(255, 0, 140));
 }
-.mail{
+
+.mail {
     display: flex;
     justify-content: center;
     padding: 15px 5px 10px 400px;
     border: 1 solid white;
     border-radius: 5px;
-    
 
 
-} 
-.sub-1{
+
+}
+
+.sub-1 {
     color: white;
     border: 1 solid white;
 }
-.subscription{
+
+.subscription {
     border: 1 solid white;
-    
+
 
 }
-.subscription .sub-1{
+
+.subscription .sub-1 {
     background-color: rgb(55, 136, 230);
     border-radius: 1px;
     border: 1 solid white;
 }
-.pricing{
-        display: flex;
-        justify-content: center;
-        font-size: 40px;
-        font-weight: bolder;
-        padding-top: 60px;
-        padding-bottom: 10px;
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: 10px;
 }
-.joinedcards{
+
+.joinedcards {
     background-color: rgb(253, 248, 248);
     height: 20vh;
     width: 100%;
     padding-top: 200px;
 
 }
-.section4{
+
+.section4 {
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr;
     grid-template-areas: one two three;
@@ -535,7 +553,8 @@ h9 {
     padding-left: 520px;
     align-content: center;
 }
-.one{
+
+.one {
     grid-template-areas: one;
     display: flex;
     row-gap: 10px;
@@ -546,10 +565,11 @@ h9 {
     height: 55vh;
     border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
-    
+
 
 }
-.two{
+
+.two {
     grid-template-areas: two;
     display: flex;
     row-gap: 10px;
@@ -557,14 +577,15 @@ h9 {
     align-content: center;
     background-color: rgb(27, 27, 61);
     width: 270px;
-    height: 61vh ;
+    height: 61vh;
     border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
     margin-top: -50px;
-   
+
 
 }
-.three{
+
+.three {
     grid-template-areas: three;
     display: flex;
     row-gap: 10px;
@@ -575,10 +596,11 @@ h9 {
     height: 55vh;
     border: 1px solid rgb(88, 189, 223);
     border-radius: 10px;
-  
+
 
 }
-.free{
+
+.free {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -586,7 +608,8 @@ h9 {
     color: black;
     font-weight: bold;
 }
-.standard{
+
+.standard {
     display: flex;
     justify-content: center;
     padding-top: 70px;
@@ -596,7 +619,8 @@ h9 {
 
 
 }
-.premium{
+
+.premium {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -606,35 +630,40 @@ h9 {
 
 
 }
-h{
+
+h {
     color: whitesmoke;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 10px;
 
 }
-p2{
+
+p2 {
     color: black;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 40px;
     padding-top: 10px;
-    
+
 
 }
-h11{
+
+h11 {
     color: black;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 10px;
 }
-p1{
+
+p1 {
     color: black;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 10px;
 }
-.freemode{
+
+.freemode {
     display: flex;
     justify-content: center;
     background-color: rgb(88, 189, 223);
@@ -644,14 +673,15 @@ p1{
     border-radius: 5px;
     margin-left: 30px;
     padding: 10px 25px 10px 20px;
-    
+
 }
-p9{
+
+p9 {
     color: white;
     font-size: 20px;
     padding-left: 30px;
     padding-top: 10px;
-/* }
+    /* }
 .freemode .btn{
     display: flex;
     justify-content: center;
@@ -659,11 +689,13 @@ p9{
     padding: 10px 25px 10px 20px;
     color: whitesmoke; */
 }
-.dollar{
+
+.dollar {
     color: rgb(88, 189, 223);
-    
+
 }
-h12{
+
+h12 {
     color: rgb(88, 189, 223);
     font-size: 50px;
     display: flex;
@@ -675,110 +707,166 @@ h12{
     font-family: arial;
     font-weight: bold;
 }
-h13{
+
+h13 {
     color: rgb(88, 189, 223);
     font-size: 15px;
 }
-.months{
+
+.months {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 130px;
     padding-top: -100px;
 }
-.section5{
+
+.section5 {
     width: 100%;
     height: 60vh;
     background-color: rgb(3, 3, 32);
 }
-.world{
+
+.world {
     display: flex;
     justify-content: flex-start;
-    padding-left: 150px;
+    padding-left: 350px;
     color: rgb(223, 215, 215);
 }
-.uphead{
+
+.uphead {
     display: flex;
     justify-content: flex-start;
-    padding-left: 150px;
+    padding-left: 350px;
     padding-top: 45px;
     padding-bottom: 10px;
 
 }
-.view{
+
+.view {
     display: flex;
     justify-content: center;
     margin-top: -150px;
-    margin-left: 1000px;
+    margin-right: -450px;
 
 }
-.sectionlast{
+
+.sectionlast {
     width: 100%;
     height: 40vh;
     background-color: rgb(243, 236, 236);
 }
-.section6{
+
+.section6 {
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
     margin-top: -150px;
-  
+
 }
-.app{
+
+.app {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-form{
+
+form {
     padding: 50px 50px;
-    width: 40vh;
-    height: 40vh;
+    width: 50vh;
+    height: 46.5vh;
     flex-direction: column;
     justify-content: center;
-    background-color:rgb(250, 246, 246);
+    background-color: rgb(250, 246, 246);
     margin-top: -150px;
-    
+
 }
-.last{
+
+h10 {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.last {
     margin-top: -150px;
 }
-.name{
+
+.name {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+
 }
-p4 .name{
+
+.name>input {
+    font-size: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: gray;
+    background-color: rgb(247, 237, 237);
+    margin-bottom: 5px;
+
+}
+
+p4 .name {
     display: flex;
     width: 50px;
     justify-content: flex-start;
 }
-.emailaddress{
+
+.emailaddress {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.click{
+
+.emailaddress>input {
+    font-size: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: gray;
+    background-color: rgb(247, 237, 237);
+    margin-bottom: 5px;
+}
+
+.click {
     display: flex;
     justify-content: center;
-    
+    margin-top: 20px;
+    background-color: rgb(47, 95, 253);
+    height: 30px;
+    padding: 10px 0px 30px 0px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+
 }
-.click .btn{
-    /* display: flex;
-    justify-content: center; */
+
+.click .btn {
     background-color: blue;
 }
-.consultancy{
+
+/* .consultancy {
     display: flex;
+    height: 10vh;
+    background-color: aqua;
     justify-content: space-between;
     margin-top: 300px;
     margin-left: -300px;
-    
-    
+
+
 }
-.refers{
+
+.refers {
     display: flex;
     justify-content: center;
     padding: 10px 10px 10px 10px;
@@ -786,29 +874,34 @@ p4 .name{
     width: 100px;
     background-color: blue;
     color: white;
-    border-radius: 5px;
+    border-radius: 5px; 
     margin-left: 400px;
     margin-right: -100px;
 
 }
-p5{
-    color: rgb(102, 91, 91);
-    font-size: 16px;
-    font-weight: bold; 
 
-}
-p{
+p5 {
+    color: rgb(175, 53, 53);
+    font-size: 16px;
+    font-weight: bold;*/
+
+
+
+p {
     color: whitesmoke;
 }
-h2{
+
+h2 {
     color: whitesmoke;
 }
-.footer-container{
+
+.footer-container {
     background-color: #fdfdff;
     padding-bottom: 4rem;
 
 }
-.footer{
+
+.footer {
     width: 80%;
     height: 30vh;
     background-color: #fdfdff;
@@ -818,35 +911,41 @@ h2{
     flex-wrap: wrap;
     margin: auto;
     text-decoration: solid;
-    
+
 }
-.containerpack{
+
+.containerpack {
     display: flex;
     flex-direction: row;
     margin: 4rem;
 
 
 }
-.footer-heading{
+
+.footer-heading {
     display: flex;
     flex-direction: column;
     margin: 4rem;
 }
-h14{
+
+h14 {
     display: flex;
 }
-.footer-heading h14{
+
+.footer-heading h14 {
     margin-bottom: 2rem;
-    
+
 
 }
-.footer-heading a{
+
+.footer-heading a {
     color: rgb(78, 69, 69);
     text-decoration: none;
     margin-bottom: 0.5rem;
 
 }
-.copyrighttext{
+
+.copyrighttext {
     display: flex;
     justify-content: space-around;
     background-color: #f8f8ff;
@@ -854,21 +953,70 @@ h14{
 
 
 }
-#divone{
+
+#divone {
     margin-right: 20px;
     margin-top: 10px;
 }
 
-#divtwo{
+#divtwo {
     margin-right: 20px;
     margin-top: 10px;
 }
-#divthree{
+
+#divthree {
     margin-right: 20px;
     margin-top: 10px;
 }
-@media screen and(max-width: 1150px)
 
+@media only screen and (max-width: 550px) {
+    .section1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1fr;
+        grid-template-areas:
+            "firstcard"
+            "secondcard"
+            "thirdcard"
+        ;
+    }
 
+    .section2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1fr;
+        grid-template-areas:
+            "card1"
+            "card2"
+            "card3";
+    }
 
+    .section4 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1fr;
+        grid-template-areas:
+            "one"
+            "two"
+            "three";
+    }
 
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1fr;
+        grid-template-areas:
+            "column1"
+            "column2"
+            "column3";
+    }
+}
+
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+
+}
+
+.dotted {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
