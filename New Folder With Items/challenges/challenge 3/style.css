@@ -86,17 +86,23 @@ ul li a:hover {
 
 .log {
     background-color: rgb(5, 187, 248);
-    width: 50%;
-    border: 1px solid rgb(5, 187, 248);
-    display: flex;
-    height: 60px;
-    margin-top: 30px;
+    width: 200px;
+    border: none;
+    height: 80px;
+    margin-top: 40px;
     border-radius: 5px;
     font-family: arial;
     color: whitesmoke;
     font-size: 14px;
-    padding: 10px 15px;
+    padding: 0px 40px 10px 50px;
+    /* padding: 10px 15px; */
 
+
+
+
+
+   
+    
 }
 
 .content {
@@ -291,7 +297,7 @@ h7 {
     height: 20vh;
     width: 100%;
     align-content: center;
-    
+
 
 }
 
@@ -500,7 +506,7 @@ h9 {
     display: flex;
     justify-content: center;
     padding: 15px 5px 10px 400px;
-    border: 1 solid white;
+    border:none;
     border-radius: 5px;
 
 
@@ -522,6 +528,7 @@ h9 {
     background-color: rgb(55, 136, 230);
     border-radius: 1px;
     border: 1 solid white;
+    height: 20px;
 }
 
 .pricing {
@@ -848,6 +855,7 @@ p4 .name {
     padding: 10px 0px 30px 0px;
     color: whitesmoke;
     margin-bottom: 20px;
+    border: none;
 
 }
 
@@ -855,37 +863,41 @@ p4 .name {
     background-color: blue;
 }
 
-/* .consultancy {
+.consult {
     display: flex;
-    height: 10vh;
-    background-color: aqua;
-    justify-content: space-between;
-    margin-top: 300px;
-    margin-left: -300px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
 
+.agency {
+    display: flex;
+    flex-direction: column;
+}
+
+p3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+p5 {
+    font-size: 15px;
+    color: grey;
 
 }
 
 .refers {
     display: flex;
     justify-content: center;
-    padding: 10px 10px 10px 10px;
-    height: 4vh;
-    width: 100px;
-    background-color: blue;
-    color: white;
-    border-radius: 5px; 
-    margin-left: 400px;
-    margin-right: -100px;
-
+    margin-top: 20px;
+    background-color: rgb(47, 95, 253);
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+    color: whitesmoke;
+    margin-bottom: 20px;
 }
-
-p5 {
-    color: rgb(175, 53, 53);
-    font-size: 16px;
-    font-weight: bold;*/
-
-
 
 p {
     color: whitesmoke;
