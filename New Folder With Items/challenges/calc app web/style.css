@@ -1,6 +1,31 @@
+body{
+    font-family: League Spartan;
+    src: url(https://fonts.google.com/specimen/League+Spartan);
+    font-weight: 700;
+    font-size: 32px;
+    background-color: hsl(224, 36%, 15%);
+
+}
 .container{
-    max-width: 400px;
+    max-width: 350px;
     margin: 10vh auto 0 auto;
+    text-align: center;
+    
+}
+h1{
+    font-size: 12px;
+    color: white;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+h2{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 32px;
+    
+
 }
 #display{
     text-align: right;
@@ -8,26 +33,41 @@
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
-    background-color: aqua;
+    width: 380px;
+    background-color: hsl(268, 75%, 9%);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: -10px;
+    
 }
 .buttons{
     display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
-}
-.buttons> div{
-    border-top: 1px solid #999;
-    border-right: 1px solid #999;
+    background-color: hsl(268, 75%, 9%);
+    gap: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 400px;
 
 }
 .button{
-    border: 0.5px solid #999;
-    line-height: 100px;
+    /* border: 0.5px solid #999; */
+    /* line-height: 100px; */
+    border-radius: 10px;
+    height: 15px;
+    background-color:  hsl(30, 25%, 89%);
+    box-shadow: hsl(28, 16%, 65%);
+    /* gap: 20px; */
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    padding: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 
 
 }
@@ -38,15 +78,36 @@
 }
 
 #delete{
-    background-color: blue;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: hsl(224, 28%, 35%);
     color: whitesmoke;
+}
+.customs{
+    display: flex;
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    /* gap: 5px; */
+    text-align: center;
+    box-sizing: border-box;
 }
 
 #reset{
-    background-color: blue;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: hsl(224, 28%, 35%);
     color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    height: 45px;
+    margin-left: 30px;
+    padding: 10px 50px 0px 50px;
+    
 }
 #equal{
-    background-color: red;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: hsl(6, 70%, 34%);
     color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 90px 0px 90px;
+    height: 45px;
 }
